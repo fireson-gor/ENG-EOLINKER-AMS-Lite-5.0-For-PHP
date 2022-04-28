@@ -1,8 +1,16 @@
 # EOLINKER AMS Lite For PHP
 
 
-Docker refer https://blog.csdn.net/guo_qiangqiang/article/details/85705669
-
+安装
+1、点击链接下载：https://www.eolinker.com/#/os/download
+2、进入github页面下载 https://github.com/eolinker/ENG-EOLINKER-AMS-Lite-5.0-For-PHP
+3、在服务器的安装目录（cd /usr/local/apache2/htdocs/）执行命令：git clone https://github.com/eolinker/ENG-EOLINKER-AMS-Lite-5.0-For-PHP.git
+4、切换目录：cd /usr/local/apache2/htdocs/eolinker/ENG-EOLINKER-AMS-Lite-5.0-For-PHP/release
+5、解压文件：unzip eolinker_ams_os_5.0.zip 得到 eolinker_os 目录
+6、将 eolinker_os 目录 拷贝到/usr/local/apache2/htdocs/
+7、创建数据库 eolinker，创建eolinker用户，并且把所有的权限都勾选上
+8、在浏览器中访问 http://localhost:80/eolinker_os，按照提示安装即可,安装完是英文版的
+9、中文版下载链接：https://gitee.com/eoLinker-API-Management/eoLinker-OS_3.X-CHN.git
 
 ![](https://data.eolinker.com/course/dUiGnus943534e04bfd59e3de7d87e0143dc66ca83835e4.png)
 
